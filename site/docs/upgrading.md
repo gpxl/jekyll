@@ -97,13 +97,13 @@ to one or more config files (comma-delimited, no spaces).
 
 <div class="note info">
   <h5>The config flag explicitly specifies your configuration file(s)</h5>
-  <p markdown="1">If you use the `&#45;&#45;config` flag, Jekyll will ignore your
-    `&#95;config.yml` file. Want to merge a custom configuration with the normal
+  <p markdown="1">If you use the `--config` flag, Jekyll will ignore your
+    `_config.yml` file. Want to merge a custom configuration with the normal
     configuration? No problem. Jekyll will accept more than one custom config
     file via the command line. Config files cascade from right to left, such
-    that if I run `jekyll serve &#45;&#45;config &#95;config.yml,&#95;config-dev.yml`,
-    the values in the config files on the right (`&#95;config-dev.yml`) overwrite
-    those on the left (`&#95;config.yml`) when both contain the same key.</p>
+    that if I run `jekyll serve --config _config.yml,_config-dev.yml`,
+    the values in the config files on the right (`_config-dev.yml`) overwrite
+    those on the left (`_config.yml`) when both contain the same key.</p>
 </div>
 
 ### New Config File Options
